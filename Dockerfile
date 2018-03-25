@@ -4,7 +4,8 @@ WORKDIR /usr/src/node-red
 
 USER root
 
-RUN apt-get update && apt-get install -y wiringpi
+RUN apt-get update
+Run apt-get install wiringpi
 
 
 COPY package.json /usr/src/node-red/
