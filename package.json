@@ -1,0 +1,22 @@
+{
+    "name": "node-red-docker",
+    "version": "1.0.0",
+    "description": "A visual tool for wiring the Internet of Things including some packages for the RPi",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lheim/docker-nodeRed-pi"
+    },
+    "main": "node_modules/node-red/red/red.js",
+    "scripts": {
+        "start": "node $NODE_OPTIONS node_modules/node-red/red.js -v $FLOWS"
+    },
+    "dependencies": {
+        "node-red-dashboard": "*",
+        "node-red-contrib-rcswitch2": "*",
+        "node-red-node-serialport": "*",
+        "node-red-contrib-sds011-sensor": "*"
+    },
+    "engines": {
+        "node": "4.*.*"
+    }
+}
