@@ -1,12 +1,12 @@
 FROM nodered/node-red-docker:rpi
 
-WORKDIR /usr/src/node-red
 
 USER root
 
 RUN apt-get update
 Run apt-get install wiringpi
 
+WORKDIR /usr/src/node-red
 
 COPY package.json /usr/src/node-red/
 RUN npm install
