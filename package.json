@@ -12,7 +12,7 @@
     },
     "dependencies": {
         "node-red-dashboard": "*",
-        "node-red-contrib-rcswitch2": "*",
+        "node-red-contrib-rcswitch2": "*"
     },
     "engines": {
         "node": "4.*.*"
