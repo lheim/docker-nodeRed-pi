@@ -13,8 +13,6 @@
     "dependencies": {
         "node-red-dashboard": "*",
         "node-red-contrib-rcswitch2": "*",
-        "node-red-node-serialport": "*",
-        "node-red-contrib-sds011-sensor": "*"
     },
     "engines": {
         "node": "4.*.*"
