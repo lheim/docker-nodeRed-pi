@@ -3,7 +3,7 @@ FROM nodered/node-red-docker:rpi
 
 USER root
 
-RUN apt-get update
+RUN apt-get clean && apt-get update
 Run apt-get install wiringpi
 
 WORKDIR /usr/src/node-red
